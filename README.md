@@ -1,7 +1,7 @@
 # V2RayAggregator
 
 
-[![Collect]()](https://github.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/actions/workflows/Collector.yml) [![Airport Collect](https://github.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/actions/workflows/Airport_Collector.yml/badge.svg)](https://github.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/actions/workflows/Airport_Collector.yml)
+[![Collect]()](https://github.com/thefatedefeater/V2RayAggregator/actions/workflows/Collector.yml) [![Airport Collect](https://github.com/thefatedefeater/V2RayAggregator/actions/workflows/Airport_Collector.yml/badge.svg)](https://github.com/thefatedefeater/V2RayAggregator/actions/workflows/Airport_Collector.yml)
 
 ## Quick Note & Updates
 🔴 ~~This project is still under maintance. so don't use it until further announcement cause there is a chance you will get errors while updating the nodes, etc.~~  
@@ -76,14 +76,14 @@ Nodes filtered using speedtest measurement will be stored in following files:
 All of the nodes merged together will be stored in following files:  
 
 * Group 1 (Contains free public nodes)
-- [Base64](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/master/sub/sub_merge_base64.txt)
-- [Mixed](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/master/sub/sub_merge.txt)
-- [Clash](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/master/sub/sub_merge_yaml.yml)
+- [Base64](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/sub_merge_base64.txt)
+- [Mixed](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/sub_merge.txt)
+- [Clash](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/sub_merge_yaml.yml)
 
 * Group 2 (Contains only free airports)
-- [Base64](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/master/sub/airport_merge_base64.txt)
-- [Mixed](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/master/sub/airport_sub_merge.txt)
-- [Clash](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/master/sub/airport_merge_yaml.yml)
+- [Base64](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/airport_merge_base64.txt)
+- [Mixed](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/airport_sub_merge.txt)
+- [Clash](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/airport_merge_yaml.yml)
 
 ### Manual Subs Conversion
 - If your client does not support the formats that provided here use below services to convert them to your client format (like surfboard)
@@ -523,7 +523,7 @@ high-speed node quantity: `200`
 ### all nodes
 merge nodes w/o dup: `5474`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/sub_merge.txt)
-- [Node link Yaml (Clash)](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregatorthefatedefeater/V2RayAggregator/master/sub/sub_merge_yaml.yml)
+- [Node link Yaml (Clash)](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/sub_merge_yaml.yml)
 
 #### all nodes separated by protoctol
 - [VMESS](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/splitted/vmess.txt)
