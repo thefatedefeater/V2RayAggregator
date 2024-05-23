@@ -61,14 +61,14 @@ The speed measurement function is implemented in the `GitHub Actions` environmen
 Nodes filtered using speedtest measurement will be stored in following files:  
 
 * Group 1 (Contains free public nodes)
-- [Base64](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/Eternity)
-- [Mixed](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/Eternity.txt)
-- [Clash](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/Eternity.yml)
+- [Base64](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/Eternity)
+- [Mixed](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/Eternity.txt)
+- [Clash](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/Eternity.yml)
 
 * Group 2 (Contains only free airports)
-- [Base64](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/EternityAir)
-- [Mixed](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/EternityAir.txt)
-- [Clash](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/EternityAir.yml)
+- [Base64](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/EternityAir)
+- [Mixed](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/EternityAir.txt)
+- [Clash](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/EternityAir.yml)
 
 ### For Local Testing (all nodes)
 > Only for local testing because the number of nodes is too high and your client will crash if you import them  
@@ -98,9 +98,9 @@ https://pub-api-1.bianyuan.xyz/sub?target=(OutputFormat)&url=(SubUrl)&insert=fal
 
 For Example:
 (OutputFormat) = clash
-(SubUrl) = https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/Eternity.yml
+(SubUrl) = https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/Eternity.yml
 
-https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/Eternity.yml&insert=false
+https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/Eternity.yml&insert=false
 
 Now you can use the link above to import the subs into your client
 ```
@@ -522,14 +522,14 @@ high-speed node quantity: `200`
 
 ### all nodes
 merge nodes w/o dup: `5690`
-- [Node link Mixed (V2ray)](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/sub/sub_merge.txt)
+- [Node link Mixed (V2ray)](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/thefatedefeater/SSAggregator/master/sub/sub_merge_yaml.yml)
 
 #### all nodes separated by protoctol
-- [VMESS](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/sub/splitted/vmess.txt)
-- [TROJAN](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/sub/splitted/trojan.txt)
-- [SSR](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/sub/splitted/ssr.txt)
-- [SHADOWSOCKS](https://raw.githubusercontent.com/thefatedefeater/ShadowsocksAggregator/master/sub/splitted/ss.txt)
+- [VMESS](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/splitted/vmess.txt)
+- [TROJAN](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/splitted/trojan.txt)
+- [SSR](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/splitted/ssr.txt)
+- [SHADOWSOCKS](https://raw.githubusercontent.com/thefatedefeater/V2RayAggregator/master/sub/splitted/ss.txt)
 
 #### provider config for clash 🐈‍⬛
 > Configs with the "others" tag will proxy domestic services.
